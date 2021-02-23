@@ -1,6 +1,12 @@
 
 
 <app-navbar></app-navbar>
-<app-container></app-container>
+<app-pere></app-pere>
+<img [src]="imgUrl"/>
+
 <app-footer></app-footer>
 <router-outlet></router-outlet>
+<button (click)="onClick($event)">
+    <input type="text" [(ngModel)]="name"/>
+    <p>{{name}}</p>
+
