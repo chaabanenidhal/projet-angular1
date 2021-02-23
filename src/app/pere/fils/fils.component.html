@@ -1,5 +1,10 @@
-<p>welcom</p>
+ <p>welcom</p>
 
-<li> 
+<!-- <li> 
     je suis de {{ordre}} fils et suis de {{villeNaissance}}
-</li>
+</li> --> -->
+<h6>
+    {{ nom}}
+</h6>
+<input type=number name=note [(ngModel)]=note>
+<button (click)="send()"[disabled]="buttonStatus">send</button>
